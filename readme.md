@@ -6,7 +6,7 @@
 
 - 🔭 I’m currently working on **NextJS Application**
 
-- 🌱 I’m currently learning **Web Development and DevOps**
+- 🌱 I’m currently learning **React Web App Development and Artificial Intelligence Models**
 
 - 💬 Ask me about **Data Structures, Algorithms, NextJs, Java, Spring, Hybernate**
 
