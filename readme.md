@@ -1,33 +1,61 @@
-[![MasterHead](https://www.learnupon.com/wp-content/uploads/@2x-Blog-Technical-Skills-animation.gif)](https://Ayush1906saxena.io)
-<h1 align="center">Hi 👋, I'm Ayush Saxena</h1>
-<h3 align="center">A Full Stack Developer and Competitive Programmer</h3>
-<img align="right" alt="Coding" width="400" src="https://camo.githubusercontent.com/61491d59e71fec5c794945fed916a4a682b6c0404fc31f30b08a0d919c558404/68747470733a2f2f696d616765732e73717561726573706163652d63646e2e636f6d2f636f6e74656e742f76312f3537363966633430316236333162616231616464623261622f313534313538303631313632342d5445363451474b524a4738535741495553374e532f6b6531375a77644742546f6464493870446d34386b506f73776c7a6a53564d4d2d53784f703743563539425a772d7a505067646e346a557756634a45315a7657515578776b6d794578676c4e714770304976544a5a616d574c49327a76595748384b332d735f3479737a63703272795449304871544f6161556f68724938504936465879386339505774426c7141566c555335697a7064634958445a71445976707252715a32395077306f2f636f64696e672d667265616b2e676966">
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=ayush1906saxena&label=Profile%20views&color=0e75b6&style=flat" alt="ayush1906saxena" /> </p>
+# Hey, I'm Ayush Saxena
 
-- 🔭 I’m currently working on **NextJS Application**
+**Software Engineer II at JPMorgan Chase** · Bengaluru, India
 
-- 🌱 I’m currently learning **React Web App Development and Artificial Intelligence Models**
+I build platforms that make engineering teams move faster — cloud-native infrastructure, interactive web applications, and AI-powered tooling. Currently focused on platform modernization for enterprise financial systems, and independently building AI agent architectures on the side.
 
-- 💬 Ask me about **Data Structures, Algorithms, NextJs, Java, Spring, Hybernate**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayush-saxena-a766b418b/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:ayushsaxena.official01@gmail.com)
 
-- 📫 How to reach me **ayushsaxena.official01@gmail.com**
+---
 
-- ⚡ Fun fact **I am constantly involved in different sports and I love cooking.**
+### What I'm building
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/ayush-saxena-a766b418b" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ayush-saxena-a766b418b" height="30" width="40" /></a>
-<a href="https://instagram.com/saxenastrong" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="saxenastrong" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/ayushsaxena5500" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="ayushsaxena5500" height="30" width="40" /></a>
+**[ChaosGuard AI](https://github.com/Ayush1906saxena/ChaosGuard)** — Autonomous security & chaos engineering platform with a 3-tier LLM agent architecture. Tier 1 runs static analysis, Tier 2 orchestrates 4 agents via LangGraph, Tier 3 deploys 8 specialized agents for attack chain construction and cascading failure simulation. Spring Boot 3 API gateway + React/Next.js dashboard, fully local via Ollama.
+`Java 21` `Spring Boot 3` `LangGraph` `React` `Next.js` `Docker` `Ollama`
+
+**[ArchitectIQ](https://github.com/Ayush1906saxena/ArchitectIQ)** — AI-powered system design learning platform with an animated avatar instructor, interactive D3.js architecture diagrams, TTS audio, and an Ollama-backed adaptive quizzing engine that adjusts difficulty in real-time. 52+ chapters from beginner to advanced.
+`React` `D3.js` `Python` `Ollama` `WebSockets`
+
+---
+
+### What I do at work
+
+At JPMC, I led the migration of the LOANIQ financial platform to Kubernetes (Terraform, Docker, near-zero downtime), built **Workmate** — an internal tool that provisions production environments in under 2 hours via automated Terraform + CI/CD pipelines — and consolidated 300+ deployment interfaces into a single pipeline that cut release time by 90%.
+
+---
+
+### Tech I work with
+
+**Languages** · Java, Python, JavaScript, TypeScript, SQL
+
+**Frontend** · React, Next.js, D3.js, HTML/CSS
+
+**Backend** · Spring Boot 3, Hibernate, JPA, Express.js, REST APIs
+
+**Cloud & DevOps** · AWS, Docker, Kubernetes, Terraform, Jenkins, CI/CD
+
+**Databases** · Oracle, PostgreSQL, MongoDB, ChromaDB, Pinecone
+
+**AI/ML** · LLM Agents, LangGraph, LangChain, RAG, Ollama, Multi-Agent Systems
+
+---
+
+### Numbers
+
+- **650+** LeetCode problems solved
+- **90%** deployment time reduction (300+ interfaces → single CI/CD pipeline)
+- **90%** query latency reduction (Oracle OLTP/OLAP schema split)
+- **< 2 hrs** environment provisioning via Workmate (previously days of manual setup)
+- **AWS Certified** Cloud Practitioner
+
+---
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Ayush1906saxena&show_icons=true&theme=default&hide_border=true&count_private=true" alt="GitHub Stats" height="165"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ayush1906saxena&theme=default&hide_border=true" alt="GitHub Streak" height="165"/>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a> </p>
-
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=ayush1906saxena&show_icons=true&locale=en&layout=compact" alt="ayush1906saxena" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ayush1906saxena&show_icons=true&locale=en" alt="ayush1906saxena" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ayush1906saxena&" alt="ayush1906saxena" /></p>
-
-
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayush1906saxena&layout=compact&theme=default&hide_border=true" alt="Top Languages" height="150"/>
+</p>
