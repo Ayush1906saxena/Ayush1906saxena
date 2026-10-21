@@ -2,10 +2,11 @@
 
 # Ayush Saxena
 
-**Software Engineer II @ JPMorgan Chase · Bengaluru, India**
+**Software Engineer II @ JPMorgan Chase · Building [Warrantee](https://ayush1906saxena.github.io/warrantee/) · Bengaluru, India**
 
-I build platforms that make engineering teams move faster — cloud-native infrastructure, interactive web applications, and AI agent architectures.
+I build systems that ship software on their own and prove it works: AI agents that write the code, and the infrastructure that won't let them ship anything unproven.
 
+[![Warrantee](https://img.shields.io/badge/Warrantee-Visit_the_site-9A1F1A?style=for-the-badge)](https://ayush1906saxena.github.io/warrantee/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayush-saxena-a766b418b/)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ayushsaxena.official01@gmail.com)
 [![LeetCode](https://img.shields.io/badge/LeetCode_650+-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/)
@@ -15,26 +16,70 @@ I build platforms that make engineering teams move faster — cloud-native infra
 
 ---
 
-### 🔨 &nbsp;What I'm Building
+## 🔏 &nbsp;Now building: [Warrantee](https://ayush1906saxena.github.io/warrantee/)
+
+> **AI engineers that answer for your app.** You describe the fix or the feature; a team of AI agents plans it, writes it, tests it and reviews it, and nothing reaches your repository until it clears an evidence gate: the project's own tests, hidden checks written before the code, and an independent review. Built, proven, shipped.
+
+```mermaid
+flowchart LR
+    A[Request] --> B[Acceptance tests<br/>written first]
+    B --> C[Plan]
+    C --> D[Agents write code<br/>in a sandbox]
+    D --> E[Own tests +<br/>independent review]
+    E --> F{Proof gate<br/>hidden tests + judge}
+    F -- not proven --> D
+    F -- proven --> G[Delivered to<br/>your GitHub]
+```
+
+**Under the hood** (private source, one month of building):
+
+| | |
+|---|---|
+| 🧠 **Model gateway** | Every model call goes through one door: a learned router picks the model per task from real outcomes, slow calls are raced against a fast backup, and every token is costed. Model-agnostic: Claude, GPT and open models on any host. |
+| 🛡️ **Policy gateway** | Every tool call (git, CI, Kubernetes, databases) passes an OPA policy check through MCP servers; agents never touch credentials. |
+| ✅ **Proof gate** | A change ships only on evidence: hidden acceptance checks written before the code, the project's own suite, an independent reviewer from another model family, and a calibrated judge. |
+| 🧪 **Sandboxed CI** | Every test run happens in an isolated Kubernetes job, across Python, Java, Node and Go. |
+| 📏 **Graded on real code** | Benchmarked on real tasks from pydantic, gson, jsoup, SQLAlchemy, Hugo, ESLint and more, scored by each project's own upstream tests ([fixtures](https://github.com/Ayush1906saxena?tab=repositories&q=meridian-fixture)). |
+
+```
+721   commits since 20 Sep 2026
+138k  lines of code: Java 21 / Spring Boot services, Python, TypeScript
+ 17   services and MCP tool servers on Kubernetes
+317   test classes · 41 architecture decision records · 30 versioned prompts
+ 32   research passes: every engine change starts from the literature
+```
+
+![Java](https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![OPA](https://img.shields.io/badge/OPA-7D9199?style=flat-square&logo=openpolicyagent&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
+
+---
+
+### 🔨 &nbsp;Other things I've built
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 #### [ChaosGuard AI](https://github.com/Ayush1906saxena/ChaosGuard)
-Autonomous security & chaos engineering platform with a **3-tier LLM agent architecture** — static analysis → 4 LangGraph-orchestrated agents → 8 specialized agents for attack chain construction & cascading failure simulation. Fully local inference, zero API cost.
+Autonomous security and chaos-engineering platform with a **3-tier LLM agent architecture**: static analysis, then 4 LangGraph-orchestrated agents, then 8 specialised agents for attack-chain construction and cascading-failure simulation. Fully local inference, zero API cost.
 
 ![Java](https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 
 </td>
 <td width="50%" valign="top">
 
 #### [ArchitectIQ](https://github.com/Ayush1906saxena/ArchitectIQ)
-AI-powered system design learning platform with an animated avatar instructor, **interactive D3.js architecture diagrams**, TTS audio, and an Ollama-backed adaptive quizzing engine. 52+ chapters from beginner to advanced.
+AI-powered system design academy: **174 lessons**, an adaptive AI interviewer, interactive failure labs and D3.js architecture diagrams, with an Ollama-backed quizzing engine.
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![D3.js](https://img.shields.io/badge/D3.js-F9A03C?style=flat-square&logo=d3dotjs&logoColor=white)
@@ -47,47 +92,26 @@ AI-powered system design learning platform with an animated avatar instructor, *
 
 ---
 
-### 💼 &nbsp;At Work
+### 💼 &nbsp;At work
 
-> At JPMorgan Chase, I led the migration of the **LOANIQ financial platform** to Kubernetes with near-zero downtime, built **Workmate** — a developer productivity tool that provisions production environments in **under 2 hours** via automated Terraform + CI/CD pipelines — and unified **300+ interfaces** into a single deployment pipeline, **cutting release time by 90%**.
+> At JPMorgan Chase, I led the migration of the **LOANIQ financial platform** to Kubernetes with near-zero downtime, built **Workmate**, a developer productivity tool that provisions production environments in **under 2 hours** through automated Terraform and CI/CD pipelines, and unified **300+ interfaces** into a single deployment pipeline, **cutting release time by 90%**.
+
+```
+650+  LeetCode problems solved (DSA, DP, system design)
+ 90%  deployment time cut: 300+ interfaces unified into 1 CI/CD pipeline
+ 90%  query latency cut: Oracle OLTP/OLAP schema split for financial databases
+< 2h  environment provisioning with Workmate (previously days of manual setup)
+```
 
 ---
 
-### 🛠️ &nbsp;Tech Stack
+### 🛠️ &nbsp;Tech stack
 
-<table>
-<tr>
-<td align="center" width="96"><img src="https://skillicons.dev/icons?i=java" width="48" height="48" alt="Java" /><br><sub>Java</sub></td>
-<td align="center" width="96"><img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python" /><br><sub>Python</sub></td>
-<td align="center" width="96"><img src="https://skillicons.dev/icons?i=javascript" width="48" height="48" alt="JavaScript" /><br><sub>JavaScript</sub></td>
-<td align="center" width="96"><img src="https://skillicons.dev/icons?i=typescript" width="48" height="48" alt="TypeScript" /><br><sub>TypeScript</sub></td>
-<td align="center" width="96"><img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" /><br><sub>React</sub></td>
-<td align="center" width="96"><img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48" alt="Next.js" /><br><sub>Next.js</sub></td>
-<td align="center" width="96"><img src="https://skillicons.dev/icons?i=spring" width="48" height="48" alt="Spring" /><br><sub>Spring Boot</sub></td>
-<td align="center" width="96"><img src="https://skillicons.dev/icons?i=d3" width="48" height="48" alt="D3.js" /><br><sub>D3.js</sub></td>
-</tr>
-<tr>
-<td align="center" width="96"><img src="https://skillicons.dev/icons?i=aws" width="48" height="48" alt="AWS" /><br><sub>AWS</sub></td>
-<td align="center" width="96"><img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker" /><br><sub>Docker</sub></td>
-<td align="center" width="96"><img src="https://skillicons.dev/icons?i=kubernetes" width="48" height="48" alt="Kubernetes" /><br><sub>Kubernetes</sub></td>
-<td align="center" width="96"><img src="https://skillicons.dev/icons?i=terraform" width="48" height="48" alt="Terraform" /><br><sub>Terraform</sub></td>
-<td align="center" width="96"><img src="https://skillicons.dev/icons?i=jenkins" width="48" height="48" alt="Jenkins" /><br><sub>Jenkins</sub></td>
-<td align="center" width="96"><img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" alt="PostgreSQL" /><br><sub>PostgreSQL</sub></td>
-<td align="center" width="96"><img src="https://skillicons.dev/icons?i=mongodb" width="48" height="48" alt="MongoDB" /><br><sub>MongoDB</sub></td>
-<td align="center" width="96"><img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" /><br><sub>Linux</sub></td>
-</tr>
-</table>
-
----
-
-### 📊 &nbsp;Impact
-
-```
-650+  LeetCode problems solved (DSA, DP, System Design)
- 90%  deployment time reduction → 300+ interfaces unified into 1 CI/CD pipeline
- 90%  query latency cut → Oracle OLTP/OLAP schema split for financial databases
-< 2h  environment provisioning via Workmate (previously days of manual setup)
-```
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,spring,python,ts,js,react,nextjs,threejs,d3&perline=9" alt="Languages and frameworks" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=kubernetes,docker,aws,terraform,postgres,redis,mongodb,jenkins,linux&perline=9" alt="Infrastructure" />
+</p>
 
 ---
 
@@ -108,5 +132,5 @@ AI-powered system design learning platform with an animated avatar instructor, *
 ---
 
 <div align="center">
-<sub>Currently solving hard problems at JPMC by day, building AI agent architectures by night.</sub>
+<sub>Fintech platforms at JPMorgan Chase by day. Software that proves itself, by night.</sub>
 </div>
